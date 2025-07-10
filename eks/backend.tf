@@ -10,7 +10,7 @@ terraform {
     bucket         = "dev-gagan-tf-bucket"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "Lock-Files"
+#   dynamodb_table = "Lock-Files"
     encrypt        = true
   }
 }
